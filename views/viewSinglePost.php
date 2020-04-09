@@ -18,7 +18,7 @@
             <div class="post-info">
 
               <div class="left-area">
-                <a class="avatar" href="#"><img src="public/public/images/avatar-1-120x120.jpg" alt="Profile Image"></a>
+                <a class="avatar" href="#"><img src="public/images/avatar-1-120x120.jpg" alt="Profile Image"></a>
               </div>
 
               <div class="middle-area">
@@ -60,7 +60,7 @@
           <div class="post-footer post-info">
 
             <div class="left-area">
-              <a class="avatar" href="#"><img src="public/public/images/avatar-1-120x120.jpg" alt="Profile Image"></a>
+              <a class="avatar" href="#"><img src="public/images/avatar-1-120x120.jpg" alt="Profile Image"></a>
             </div>
 
             <div class="middle-area">

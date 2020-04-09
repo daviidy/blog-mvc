@@ -16,6 +16,10 @@ class ArticleManager extends Model
       return $this->getOne('articles', 'Article', $id);
     }
 
+  public function createArticle(){
+      return $this->createOne('articles', 'Article');
+    }
+
 }
 
 

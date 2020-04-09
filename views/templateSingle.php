@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
-	<title>TITLE</title>
+	<title>Vue Article</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="UTF-8">
@@ -19,9 +19,9 @@
 	<link href="public/common-css/ionicons.css" rel="stylesheet">
 
 
-	<link href="public/layout-1/css/styles.css" rel="stylesheet">
+	<link href="public/single-post-1/css/styles.css" rel="stylesheet">
 
-	<link href="public/layout-1/css/responsive.css" rel="stylesheet">
+	<link href="public/single-post-1/css/responsive.css" rel="stylesheet">
 
 </head>
 <body >
@@ -51,13 +51,7 @@
 	</header>
 
 
-  <?= $content ?>
-
-
-
-
-
-
+<?=$content?>
 
 	<footer>
 
@@ -69,7 +63,7 @@
 
 						<a class="logo" href="#"><img src="public/images/logo.png" alt="Logo Image"></a>
 						<p class="copyright">Bona @ 2017. All rights reserved.</p>
-						<p class="copyright">Designed by <a href="public/https://colorlib.com" target="_blank">Colorlib</a></p>
+						<p class="copyright">Designed by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
 						<ul class="icons">
 							<li><a href="#"><i class="ion-social-facebook-outline"></i></a></li>
 							<li><a href="#"><i class="ion-social-twitter-outline"></i></a></li>

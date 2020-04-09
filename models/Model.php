@@ -59,6 +59,15 @@ abstract class Model
     $req->closeCursor();
   }
 
+  protected function createOne($table, $obj)
+  {
+    $this->getBdd();
+    $req = self::$_bdd->prepare("INSERT INTO ".$table." (title, content, date) VALUES (?, ?, ?)");
+    $req->execute(array($_POST['title'], $_POST['content'], date("d.m.Y")));
+
+    $req->closeCursor();
+  }
+
 
 
 
