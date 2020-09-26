@@ -2,6 +2,8 @@
 
 ##This repo shows how to create a blog with MVC architecture
 
+![screenshot](./public/images/screenshot.png)
+
 ## Built With
 
 - PHP 7
